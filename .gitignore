@@ -1,0 +1,8 @@
+.env
+*.log
+.DS_Store
+/deps/
+/_build/
+/doc/
+*.ez
+erl_crash.dump
