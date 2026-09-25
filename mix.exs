@@ -4,7 +4,7 @@ defmodule URLCategorizationDatabase.MixProject do
   def project,
     do: [
       app: :urlcategorizationdatabase,
-      version: "1.0.0",
+      version: "1.0.1",
       elixir: "~> 1.14",
       description: "Elixir client for URL Categorization Database.",
       package: package(),

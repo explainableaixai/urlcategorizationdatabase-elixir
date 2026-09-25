@@ -1,6 +1,6 @@
 # URLCategorizationDatabase
 
-Elixir client for content classification of domains and URLs. It is meant to run next to a licensed category file: the file covers known domains offline, and this client classifies whatever the file lacks. Product details and file formats are at [URL category file plus live classification](https://www.urlcategorizationdatabase.com).
+Elixir client for content classification of domains and URLs. It is meant to run next to a licensed category file: the file covers known domains offline, and this client classifies whatever the file lacks. Product details and file formats are on the [URL categorization database pricing](https://www.urlcategorizationdatabase.com/pricing.php) page.
 
 ## Installation
 
@@ -108,11 +108,11 @@ Store the full response body in a `:map` (jsonb) column with a `categorized_at` 
 - CRM enrichment: tag company websites with an industry before routing leads.
 - Analytics: add a topic dimension to referrer and outbound-link reports.
 - Ad operations: screen domain lists before a campaign.
-- Security reporting: label traffic by topic, while blocking decisions use [enforcement-ready filtering categories](https://www.webfilteringdatabase.com).
+- Security reporting: label traffic by topic, while blocking decisions use [K-12 web filtering categories](https://www.webfilteringdatabase.com/categories-web-filtering.php) in schools and enterprise categories elsewhere.
 
 ## AI traffic
 
-General content taxonomies file AI products under software. Adding [an AI flag for rows in your URL tables](https://www.aitoolsblocklist.com) takes one more lookup against the AI register. For a picture of [company-wide AI usage from resolver data](https://www.shadowaitools.com), the log audit does the counting.
+General content taxonomies file AI products under software. [AI data leakage prevention tools](https://www.aitoolsblocklist.com/ai-data-loss-prevention.php) need that AI flag, which takes one more lookup against the AI register. For [detecting shadow AI](https://www.shadowaitools.com/detection-methodology.php) across resolver data, the log audit does the counting.
 
 Other clients: [Go](https://pkg.go.dev/github.com/explainableaixai/urlcategorizationdatabase-go), [Dart](https://pub.dev/packages/urlcategorizationdatabase) and [PHP](https://packagist.org/packages/urlcategorizationdatabase/urlcategorizationdatabase).
 
